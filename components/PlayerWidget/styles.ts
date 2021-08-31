@@ -8,8 +8,14 @@ const styles = StyleSheet.create({
 		backgroundColor: '#131313',
 		borderWidth: 2,
 		borderColor: 'black',
+		flexDirection: 'column',
+	},
+	progress: {
+		height: 3,
+		backgroundColor: '#bcbcbc',
+	},
+	row: {
 		flexDirection: 'row',
-		alignItems: 'center',
 	},
 	image: {
 		width: 75,
